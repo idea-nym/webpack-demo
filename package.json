@@ -4,7 +4,7 @@
   "description": "webpack setup follow along with Colt Steele https://www.youtube.com/watch?v=MpGLUVbqoYQ&t=4491s",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
