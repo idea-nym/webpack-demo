@@ -1,13 +1,7 @@
-const path = require ("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js",
-
-  output: {
-    filename: "main.[contenthash:8].js", // MD5 Hashing; ':8' limits hash to 8 characters
-    path: path.resolve(__dirname, "build")
-  },
 
   module: {
     rules: [
