@@ -7,7 +7,7 @@ module.exports = merge(common, {
   mode: "production",
 
   output: {
-    filename: "main.[contenthash:8].js", // MD5 Hashing; ':8' limits hash to 8 characters
+    filename: "[name].[contenthash:8].bundle.js", // MD5 Hashing; ':8' limits hash to 8 characters
     path: path.resolve(__dirname, "build"),
     publicPath: ''
   },

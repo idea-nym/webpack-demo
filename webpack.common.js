@@ -1,7 +1,11 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    // This makes use of Object Syntax, the most scalable way of defining entries. main and vendor are arbitrary names pertaining to their respective environment concerns.
+    main: "./src/index.js",
+    vendor: "./src/vendor.js"
+  },
   
   module: {
     rules: [
