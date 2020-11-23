@@ -48,7 +48,7 @@ OR
     }
 <!-- OUTPUT: Styled page no image -->
 
-### THEN, webpack will compile an html but the dynamic image tage will look like:
+### THEN, webpack will compile an html but the dynamic image tag will look like:
 
     <img src="[object Module]"/>
 
